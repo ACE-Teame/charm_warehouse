@@ -144,6 +144,7 @@
 					        <option value="工业厂房">工业厂房</option>
 					    </select>
 					</div>
+					<input type="hidden" name="c" value="<?php echo $c ?>">
 				</form>
 				<a href="javaScript:;" class="btn btn-submit" onclick='submit()'>提交</a>
 			</div>
